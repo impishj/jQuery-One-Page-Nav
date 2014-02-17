@@ -111,10 +111,6 @@
 				linkAttr.split('#')[1];
 				return linkAttr;
 			} else { return 'error' };
-		},		
-		getHash: function($link) {
-			return $link.attr('href').split('#')[1];
-			
 		},
 		
 		getPositions: function() {
